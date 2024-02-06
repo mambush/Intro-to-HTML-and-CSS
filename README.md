@@ -41,6 +41,46 @@ HTML syntax
   <del> - Deleted text
   <ins> - Inserted text
   <sub> - Subscript text
-  <sup> - Superscript text
+  <sup> - Superscript text.
+
+  Nested HTML Element
+  * An entire document is basically a bunch of HTML element nested inside each other.
+  * The browser pays attention to this nesting create a tree structure, like a family tree with parents,children and Siblings;It shows how everything is related and is called a called "Dom Tree"( Document Object Model), This tree is very important when dealing with CSS or javascript.
+  * Practical Snippet of HTML has emphasized text, mostly pay attention to where we open and close our HTML tags and how we rest elements within each other. This helps convey meaning about the content and interfaces.
+  * Sometimes the outer element will just other elements as in the example above.for example look how "li" elements inside the "ol" element are indented.
+    <!DOCTYPE html>
+    <html>
+      <body>
+        <h1> First Heading</h1>
+        <h2> Second paragraph</h2>
+        
+      </body>
+    </html>
+
+  A paragraph is used to to start on a new line and browsers automatically add some white spaces.
+  HTML Headline are what defines with <h1> to <h2>
+  <h1> Defines the most important heading.
+  <h6>Defines the least impportant heading.
+  HTML lists 
+  * If you want to write a list you use <li></li> for Order HTML you use <ol></ol>
+  If you want to create a recipe:
+  = you need to mark each step as a <li> element and then wrap the entire list in an<ol>
+
+  UNIT 3
+
+  HTML Attributes
+  * All HTML elements can have attributes
+  * Attribute provide additional information about elements
+  * Atributes are always specified in the start tag
+  * Atrributes usually come in name/value pairs like: name=" value"
+Another popular attribute is the ID, It is similar to the class attribute but we can use unique names on a entire HTML page ID can be used for CSS targetting but are more specific
+which can be sometimes causes issues. As a result CSS developers usually prefer using classes.
+The href attribute <a>
+=Defines a hyperlink,The href attributes specifies the URL of the page the link goes to:
+for Example <a href="https://www.w3schools.com"Visit W3schools</a>
+The src Attribute
+The <img> tag is used to embed an image in an HTML page. The src attribute specifies the path to the image to be displayed 
+<img src="img_girl.jpg">
+
 
   
