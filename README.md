@@ -22,7 +22,7 @@ JAVA SCRIPT
 * Function name(parameter 1,parameter2,parameter3) {
    // code to be executed.
 
-  UNIT 2
+ ## UNIT 2
 
 HTML text formatting 
 HTML syntax
@@ -66,7 +66,7 @@ HTML syntax
   If you want to create a recipe:
   = you need to mark each step as a <li> element and then wrap the entire list in an<ol>
 
-  UNIT 3
+ ## UNIT 3
 
   HTML Attributes
   * All HTML elements can have attributes
@@ -81,6 +81,57 @@ for Example <a href="https://www.w3schools.com"Visit W3schools</a>
 The src Attribute
 The <img> tag is used to embed an image in an HTML page. The src attribute specifies the path to the image to be displayed 
 <img src="img_girl.jpg">
+* ID Attribute- The ID attribute is a unique identifier which is used to specify the document.
+  #NB- It is used by CSS and Javascript to perform for unique elements
+  * Class Attribute - The class attribute is used to specify one or more class names for an HTML element.
+    ID usually come in handy when we address specific elements in JavaScript or targeted links.
+    ID ensures that there will be one element with that ID making it useful for interacting with JavaScript or Links.
+
+    #ARIA Roles- provide semantic meaning to content, allowing screen readers and other tools to present and support interaction with an object in a way that is consistent with user expectations of that type of object.
+    #ARIA Function - ARIA is set of attributes you can add to HTML elements that define ways to make web content and Application accessible to users with disabilities who use assistive technologies(AT)
+
+    # A tree browser accessiblity tree- allows users to vertically navigate hierarchical business object, each presented as a node with a large image,three lines of metadata and an optinal link.
+    # Metadata are HTML snippets used in web development to describe the content on a web page.
+    Meta tags don't appear on the pages but instead exist within the websites source code, also known as the HTML code, located in the website head.
+
+    * FORMATTING IN HTML, refers to the way text is displayed on a web page.
+    * Since I know that HTML does not pay much attention in spaces,Tabs or line break. But there couple exceptions for example if you use elements like<pre>,<code> or ,<textarea> or you want to modify the white handling with CSS then extra space or indentation can matter.
+    * working with comments in the HTML can be used to insert comments in the source code.
+    * Comments are not displayed in the browsers, You can use comments to explain your code whcih can be useful when youn edit the code at a later date,especially when you have alot of code.
+
+      *Working with the upper or lowercase, can define the text case for your style by using the text transforms property. In this way you can display the text either with initial capital letters, in all capital letters in all small letters or as it was typed.
+      * HTML allows mixing uppercase and lowerscase letters in element names, However we recommend using lowercase element names because mixing uppercase and lowercase names look bad. Most developers use normally use lowercase names.
+      * Working with short element, <code> HTML element displays its contents styled in a fashion intended to indicate that the text is a short fragment of computer code. By default, the content text is displayed using the user agents default monospace.
+      * In code formatting you write symbols with space around them and they will appear as regular content,However if you start to writing something that resembles an HTML element it magically disappear.
+
+        A commonly used HTML entity is the non- breaking:&nbsp: non- breaking space is a space that will not break into a new line.Two words separated by non- breaking space will stick together(not break into a new line).
+
+##UNIT 4
+ HTML NAVIGATION AND LINKS
+ The <nav> tag defines a set of navigation links notice that not all links of a document should be inside a <nav> element.
+ The <nav> element is intended only for major blocks of navigation links.
+ HTML LINKS -are links that we encounter everytime or everywhre online
+ ##NB -when creating a list we use the<a> element to define the link.
+ *Use the href attribute to define the link address
+ *use the target attribute to define where to open the linked document
+ *Use the <img> element (inside <a>) to use an image as a link
+
+ HTML LINKS - Syntax
+ The HTML <a> tag defines a hyperlink.It has the following syntax
+ <a href="url"> link text</a>
+ The most important attribute of the <a> element is the href attribute ,which indicates the links destination.
+ The links text is the part that will be visible to the reader
+ clicking on the link text, will send the reader to specified URL address 
+ for Example:
+ <a href=" http://www.w3 school.com/"
+ =visit w3schools.com!</a>
+ * To make use of HTML file paths, the two option are either relative or absolute file path.With relative file paths,the fiels you inted to reference are located in the same folder of your website folder structure.
+ * HTML FILE Paths
+   A file path describe the location of a file in a web site's folder structure.
+   File paths are used when linking to external files,web pages,images,style sheets and javascripts.
+   * An absolute File paths is the full URL to a file:
+     <img
+     src="https://www.w3schools.com/images/picture.jpg" alt="Mountain">
 
 
   
