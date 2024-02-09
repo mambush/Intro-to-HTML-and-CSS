@@ -132,6 +132,8 @@ The <img> tag is used to embed an image in an HTML page. The src attribute speci
    * An absolute File paths is the full URL to a file:
      <img
      src="https://www.w3schools.com/images/picture.jpg" alt="Mountain">
+     NAVIGATION HTML
+     *
 
 
   
