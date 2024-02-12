@@ -106,7 +106,7 @@ The <img> tag is used to embed an image in an HTML page. The src attribute speci
 
         A commonly used HTML entity is the non- breaking:&nbsp: non- breaking space is a space that will not break into a new line.Two words separated by non- breaking space will stick together(not break into a new line).
 
-##UNIT 4
+## UNIT 4
  HTML NAVIGATION AND LINKS
  The <nav> tag defines a set of navigation links notice that not all links of a document should be inside a <nav> element.
  The <nav> element is intended only for major blocks of navigation links.
@@ -134,7 +134,7 @@ The <img> tag is used to embed an image in an HTML page. The src attribute speci
      src="https://www.w3schools.com/images/picture.jpg" alt="Mountain">
      NAVIGATION HTML
 
-     #UNIT 5
+     ## UNIT 5
 
      HTML working with Graphic and Image
 
@@ -152,7 +152,47 @@ The <img> tag is used to embed an image in an HTML page. The src attribute speci
        Working with an image element.
 
        In order to put simple image on a webpage,we use the <img> element. This is a void element(meaning, it cannot have any child content and cannot have an end tag) that requires two attributes to be useful: SRC and ALT. The SRC attribute contains a URL pointing to the image you want to embed in the page.
-       * You need to add on an ALT attribute in the HTML, which serve as replacement for image when it cannot be seen.
+       * You need to add on an ALT attribute in the HTML, which serve as replacement for image when it cannot be seen.For instance people who are visually impaired may use a Screen reader that reads the ALT test outload to them.
+         ## NB:
+         * Make the ALT text interesting.
+         * No need to mention that it is a Photo, as it is obvious.
+         * No need to write a lengthy description
+         * Focus on what it depicts.
+            WORKING WITH BLANK ALT TEXT.
+           =Decorative images require the addition of an empty or null ALT attribute in the HTML code view that will tell the screen reader to skip over the image. An empty alt attribute is written as ALT=" " with a space between the double qoutes.A null alt text is written as alt="" with no space between the set of qoutes.
+
+           The browser also needs to be informed about the size of the image in pixels. In this case, the image is 400 pixels and 300 pixels tall. If the image os opened in a program like Photoshop,those dimensions can be verified. Include that information in the image element using the width and height attribute. The units for these numbers do not to be specified just the numerical value are enough. It is universally understood that the dimensions are actual pixels.
+           ## NB;
+           =It does not matter, whether the height or the width is specified first. In HTML, the order of attributes within an element can be whatever you prefer.
+
+           The importance of typing in the width and height attributes is to set the space required for the image is reserved when the page is loaded.
+           * If the browser is provided with the exact dimension of each image, it knows right away how to display it. This gives the browser a slight head start in calculating the layout.
+             ## Image Formats
+             = Is a file for a digital image.There are many format that can be used, such as JPEG,PNG and GIF. The data stored in an image file format may be compressed or uncompressed.
+
+             # GIF = Are great for compressing illustrations that have large areas of the same color, but it falls short when it comes to photographs.It only supports 256 colors and image can end looking pixelated, unless you want that retro vibes GIFs can have transparent areas but the edges between transports and solid parts can be jagged.
+             # SVG = Are perfect for logos,icons and other types of illustrations unlike GIF, SVG is a vector file that contains instructions for drawing rather than individual pixels. This means it can be scaled to any size without losing quality and file size remains small.SVG is actually a programming language of Graphics, and there are dedicated courses on it if you wish  to learn more. SVG files can be exported from pograms like illustrator or sketch,and handled just like other file formats on the web.
+
+          # JPG
+         JPG are a popular choice for compressing Photographs. Most digital Camera save image in JPG format, but when placed on the web, it is important to resize and compress appropriately. Avoid using gigantic, half-compressed JPG on your website as they will slow the loading spped. JPG can be Compressed further by reducing color information, finding the right balance quality and file size. You can do this manually or rely on web services for assistance.
+         # PNG
+         Is a newer format that works well when you need transparency in a Photograph. It Sometimes outperforms both GIFs and JPG in compressing certain types of images. When manually compressing files, try different options to find the smallest file size. It is worth mentioning that new image formats will likely emerge in the future, offering even better compression
+         capabilities. Keep an eye out for those when working with image files,consider the physical size,file format and compression  settings to ensure fast download speeds interestingly, the HTML used remains the same regardless of the file format you choose.
+
+       # Responsive image
+       *Images that are designed to adjust their size and resolution based on the size of the device or screen they are being viewed on.
+       * HTML allows us to deliver different image files to screen of different sizes
+       * To support these different screens, create multiple copies of an image with different resolutions and inform the browser about these options. Then, the device can choose which image to use based on factors like screen density, network connection, and user settings. Even if someone has a high-resolution screen, the browser might opt to download a lower-resolution image.
+         # Responsive width
+         To make an image responsive you need to give a new value to its width property. Then the height of the image will adjust itself automatically. The important thing to know is that you should always use relative units for the width property like percentage,rather than absolute ones like pixels.
+         # FIGURE AND FIGCAPTION
+         A caption can be associated with the <figure> element by inserting a <figcaption>inside it( as the first or the last child). The first <figcaption> element found in the figure is presented as the figure caption. The <figcaption> provides the accessible description for the parent<figure>
+         The <figcaption> element is used to define some text as the caption of a figure. Example:
+         code.<figure><img src="image.jpg"
+         alt= "Description of the image">
+         <figcaption>This the caption of the figure</figcaption> </figure>
+           
+           
 
 
 
