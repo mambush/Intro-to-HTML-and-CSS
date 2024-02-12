@@ -133,7 +133,22 @@ The <img> tag is used to embed an image in an HTML page. The src attribute speci
      <img
      src="https://www.w3schools.com/images/picture.jpg" alt="Mountain">
      NAVIGATION HTML
-     *
+
+     #UNIT 5
+
+     HTML working with Graphic and Image
+
+     * IMAGES
+       = A web would not be a complete web without images.
+       =when we add image to a webpage we use image element written a "img"
+       EXAMPLE;
+       <img src="image.jpg"alt="brown dog" width="400"height="300">
+
+       #FOUR ATTRIBUTES THAT NEED TO BE INCLUDED FOR EVERY IMAGE
+       1.We have the source attribute (SRC) which tells the browser which image file to load.
+       2. The alt attribute (ALT) which provides a text description of the image
+       3. Then we have the width and height attribute, which determine the size of the image. So every image should have all four of the attribute.
+       
 
 
   
