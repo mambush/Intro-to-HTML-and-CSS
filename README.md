@@ -148,6 +148,25 @@ The <img> tag is used to embed an image in an HTML page. The src attribute speci
        1.We have the source attribute (SRC) which tells the browser which image file to load.
        2. The alt attribute (ALT) which provides a text description of the image
        3. Then we have the width and height attribute, which determine the size of the image. So every image should have all four of the attribute.
+
+       Working with an image element.
+
+       In order to put simple image on a webpage,we use the <img> element. This is a void element(meaning, it cannot have any child content and cannot have an end tag) that requires two attributes to be useful: SRC and ALT. The SRC attribute contains a URL pointing to the image you want to embed in the page.
+       * You need to add on an ALT attribute in the HTML, which serve as replacement for image when it cannot be seen.
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
        
 
 
