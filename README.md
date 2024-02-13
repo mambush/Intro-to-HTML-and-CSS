@@ -206,6 +206,21 @@ The <img> tag is used to embed an image in an HTML page. The src attribute speci
            <audio control SRC="audio.mp3"></audio>
            *If a new file format is used that is not supported in all browsers while providing feedback for older ones,to achieve this, remove the source attribute from the audio element and place it on a seperate source element.
            # WORKING WITH VIDEO
+           The <video> tag contains one or more<source> tags with different video sources.
+           * The browser will choose the first source it supports. The text between the <video> and </video> tags will only be displayed in browsers that do not support the<video> element.
+             * The <video> element supports three video formats:MP4,WebM and Ogg.
+               * However, not every web browser supports all three of these formats. To be sure that your video content display properly across browser you can specify multiple video sourcers with the<source>tag
+                 <video width="320"height="240" controls>
+                 <source src="movie.mp4"type="video/mp4">
+                 <source src="movie.ogg"type="video/ogg">
+                 Your browser does not support the video tag
+                 </video>
+                 The <video> tag is used to embed video content in a document, Such as a movie clip or other video streams.
+                 The controls attribute adds video controls, like play, pause and volume.
+                 Just like with image formats like PNG,JPEG,GIF or SVG there are different codecs that can be used to encode video files. Video file contains alot of data and if not compressed they become too large to be efficiently transimitted over the
+                 internet. Internet videos,therefore use a mechanism to compress all data into a smaller package.
+                 There have been various codecs developed over the years suchn as Real video,Sorenson, windowsMedia,Flash and H.263 from 2015 to 2020, H.264 was the dominat codec that most people used,however there is a catch:H.264 is not open source.
+                 It is a patented codec owned by a consortium. They charge licensing fees for every device,operanting system,browser,camera or anything that wants to record,comprers or play H.264 FILES. And now they are Planning to charge even more for H.265
            
 
 
