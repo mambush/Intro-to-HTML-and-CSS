@@ -174,7 +174,7 @@ The <img> tag is used to embed an image in an HTML page. The src attribute speci
              # SVG = Are perfect for logos,icons and other types of illustrations unlike GIF, SVG is a vector file that contains instructions for drawing rather than individual pixels. This means it can be scaled to any size without losing quality and file size remains small.SVG is actually a programming language of Graphics, and there are dedicated courses on it if you wish  to learn more. SVG files can be exported from pograms like illustrator or sketch,and handled just like other file formats on the web.
 
           # JPG
-         JPG are a popular choice for compressing Photographs. Most digital Camera save image in JPG format, but when placed on the web, it is important to resize and compress appropriately. Avoid using gigantic, half-compressed JPG on your website as they will slow the loading spped. JPG can be Compressed further by reducing color information, finding the right balance quality and file size. You can do this manually or rely on web services for assistance.
+         JPG are a popular choice for compressing Photographs. Most digital Camera save image in JPG format, but when placed on the web, it is important to resize and compress appropriately. Avoid using gigantic, half-compressed JPG on your website as they will slow the loading speed. JPG can be Compressed further by reducing color information, finding the right balance quality and file size. You can do this manually or rely on web services for assistance.
          # PNG
          Is a newer format that works well when you need transparency in a Photograph. It Sometimes outperforms both GIFs and JPG in compressing certain types of images. When manually compressing files, try different options to find the smallest file size. It is worth mentioning that new image formats will likely emerge in the future, offering even better compression
          capabilities. Keep an eye out for those when working with image files,consider the physical size,file format and compression  settings to ensure fast download speeds interestingly, the HTML used remains the same regardless of the file format you choose.
@@ -191,7 +191,21 @@ The <img> tag is used to embed an image in an HTML page. The src attribute speci
          code.<figure><img src="image.jpg"
          alt= "Description of the image">
          <figcaption>This the caption of the figure</figcaption> </figure>
-           
+
+           ## UNIT 6
+         # WORKING WITH AUDIO
+          <audio>: The Embed Audio
+         The <audio> HTML element is used to embed sound content in documents. It may contain one or more audio sources, represented using the SRC attribute or the <source> element: The browser will choose the most suitable one.
+         The <audio> tag is used to embed sound content in a document such as music or other audio streams.
+         The<audio> tag contains one or more <source> tags with different audio source. The browser will choose the first source it supports.
+         The text between the <audio> and </audio> tags will only be displayed in browser that do not support the <audio> element
+         There are three supported audio formats in HTML:MP3,WAV and OGG.
+
+         * The opening tag and closing tag on Audio is to specify multiple audio files,Similar to how the picture is used.
+
+           <audio control SRC="audio.mp3"></audio>
+           *If a new file format is used that is not supported in all browsers while providing feedback for older ones,to achieve this, remove the source attribute from the audio element and place it on a seperate source element.
+           # WORKING WITH VIDEO
            
 
 
