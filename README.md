@@ -221,6 +221,12 @@ The <img> tag is used to embed an image in an HTML page. The src attribute speci
                  internet. Internet videos,therefore use a mechanism to compress all data into a smaller package.
                  There have been various codecs developed over the years suchn as Real video,Sorenson, windowsMedia,Flash and H.263 from 2015 to 2020, H.264 was the dominat codec that most people used,however there is a catch:H.264 is not open source.
                  It is a patented codec owned by a consortium. They charge licensing fees for every device,operanting system,browser,camera or anything that wants to record,comprers or play H.264 FILES. And now they are Planning to charge even more for H.265
+                   # WORKING WITH VIDEO ELEMENT
+                 HTML <caption> tag defines a table cation.The <caption> tag must be inserted immediately after the <table> tag.TIP: By default,a table caption will be center-aligned above table.
+                 * caption and subtitle, we use it for those people who are deaf or people who do not want display sound in Public platform.
+                 * we use the track element and link it to a text file to add caption to the video. This element adds functionality to the video player, allowing those viewers to toggle captions on and off or switch between different subtitle options. On a web, a file format called"ibvtt", which stands for web video text tracks, will be useed.
+                 * It is simple text file with vtt extension that follows a specific convention for providing information. Each line text is accompanied by a time code, that will when it should be displayed in the video.
+                 HTML allwos us to specifyfor a video using the <track> element.
            
 
 
