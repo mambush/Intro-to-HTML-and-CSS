@@ -227,6 +227,21 @@ The <img> tag is used to embed an image in an HTML page. The src attribute speci
                  * we use the track element and link it to a text file to add caption to the video. This element adds functionality to the video player, allowing those viewers to toggle captions on and off or switch between different subtitle options. On a web, a file format called"ibvtt", which stands for web video text tracks, will be useed.
                  * It is simple text file with vtt extension that follows a specific convention for providing information. Each line text is accompanied by a time code, that will when it should be displayed in the video.
                  HTML allwos us to specifyfor a video using the <track> element.
+                 #Embedding via Media
+                 * There is a wide range of content that can be embedded on a page,instance,a map from Google or Mapbox, acode demo from codePen or Glitch or even a slide deck from speaker Deck or Notist.It is common parctise to embed complex content from a service that handleds the techinical aspects.Instead of figuring out how to builed a mapping service a slide deck system a code demo platform, or an adaptive bitrate server, you can rely on someone else toolkit to handle all of it.Simply embed the results onto a website. So that what HTML knowledge do we need to facilitate this process.
+
+                 #GETTING AN EMBED LINK FROM YOUTUBE
+                 *Look for the video element,which could be an <iframe>,<video> or<embed> ta. Find the URL in the source code: Once you have located the video element, search for the src attribute within the element.The url of the embedded video should be specified in src attribute.
+                 #WORKING WITH IFRAME ELEMENT
+                 * An inline frame is used to embed another document within the current HTML document. Use CSS style to style the <iframe>
+                 * It is good practise to always include a title attribute for the <iframe>. This is used by screen readers to read out what the content of the <iframe> is.
+                 * If used a content management system(CMS) that was set up by another person for example;"Word press" or "Drupa" there is no need to copy and paste random embed code from other websites.
+                 * The CMS have a specific way to allow URLs or Shorcodes from trusted sources, So to embed things like YouTube videos,its better ask someone who already knows how to use it.
+                   # NB;
+                   If you are building a website consider security aspects that are related to the iframe element.
+
+                   ## UNIT 7
+                   
            
 
 
