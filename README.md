@@ -241,7 +241,18 @@ The <img> tag is used to embed an image in an HTML page. The src attribute speci
                    If you are building a website consider security aspects that are related to the iframe element.
 
                    ## UNIT 7
-                   
+                   # HTML CONTENT IDENTIFICATION
+                   =The lang global attribute helps define the laguage of an element: The langauge that non-editable element are written in or the language that the editable elements should be written in by the user.
+                   * The Lang tag(lang="" attribute) is designed to signal screen readers pronunciation engines to switch to another language.
+                   * Thge lang attribute is used to specify the language of a webpage.
+                   * It is simple when the whole page is one language.
+                   * You set the language on the main element that wraps everything else,which is the HTML element.
+                   * You set it once like a template file that applies to the entire set.
+                   * It is such important to specify the content direction, Since most language flow from left to right horizontally some flow from left to right.
+                   * You need to use the "Dir" attribute to indicate the direction and can be applied to any element.
+
+                     <HTML lang="en-us">
+                     <HTML lang="en-gb"dir="ltr">
            
 
 
