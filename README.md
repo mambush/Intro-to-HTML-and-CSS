@@ -272,7 +272,70 @@ The <img> tag is used to embed an image in an HTML page. The src attribute speci
                        DIV
                        <div> tag defines a division  or a section in a HTML document
                        * The <div> is used a container for HTML elements, which is then styled with CSS or Manipulated with javascript.
-                       ## UNIT 8
+                         
+                        ## UNIT 8
+                       * HTML Integration allow for user authentication, data validation and seamless presentation of dynamic content on web pages.The communication between HTML, server-side scripts and database enables the creation of interactive data-driven web applications.
+                       * To integrate a HTML Code you use;
+                       <code> tag.
+                        # Home page
+                       * HTML page and all the elements attributes roles and tools used to mark up content on website or webapps ahve been covered. HTML plays a major role in explaining what these things are, but it is not just limited to that. HTML files are a vital part of the web.
+                         # Structure of the whole HTML File
+                         <!DOCTYPE html>
+                         <html lang="en">
+                         <head>
+                           <meta charset="UTF-8">
+                           <title>wisdom Pet Medicine</title>
+                         </head>
+                         <body>
+                           
+                         </body>
+                         </html>
+
+                         # Structure of the whole HTML File
+                         * The file should begin with a "Doc".
+                         * At the beginning specify a few things about the web page
+                         * Declare the language being used and the content flow direction.
+                         * Inside the HTML element there are two main parts where everything goes: The head and the body
+                         * create them using the head and the body elements.
+                         * The head contains all the metadata that the browser needs to know but will not display on the page.
+                         * The body is for all the content and is composed of various element already discussed in this course.
+                         * The body is where most of the action happens
+                         * The doctype declaration,HTML head and body elements are the essential building block of every web page.
+
+                           ## Document head
+
+                           *Inside the head of a webpage, you put important information that the browser needs to know about the website.
+ * We use the meta element, to ensure that meta elements are only placed inside the head as they provide metadata about the page.
+ * To define the character set, use the character setb attributes and set it to"UTF-8"
+ * The title element is not something that appears as visible content.
+
+      <!DOCTYPE html>
+      <html lang="en-us" dir="ltr">
+      <head>
+        <meta charset="UTF-8">
+        <title>Our website</title>
+      </head>
+      <body>
+        <h1> This is headline</h1>
+        <p> Text in a paragraph</p>
+        <p> Usually there's alot in here</p>
+      </body>
+      </html>
+
+      # HTML file head section
+   * Is what appears on the browser tab or bookmark when it is saved
+   * It is also the name that appears under top sites when a new browser is opened.
+   * Whenever the browser refers to this page, it uses the title defined in the title element.
+
+     # META tag
+     * use to inform the browser that the layout has been adjust to fit small screens
+     *  Making it responsive website.
+     *  without the meta tag the browser assumes the pages follows an older layout technique designed for desktop
+     *  useful to include a description of the site
+     *  Meta tag is used to assign a name to the webpage when saved to the home screen
+     *  To specify a tile image and background color
+     *  when a link is shared on a platform like SLACK, it turns into an attractive card, this made possible by meta tags.
+                       
 
                        
            
