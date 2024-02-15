@@ -336,7 +336,33 @@ The <img> tag is used to embed an image in an HTML page. The src attribute speci
      *  To specify a tile image and background color
      *  when a link is shared on a platform like SLACK, it turns into an attractive card, this made possible by meta tags.
                        
+# LINK ELEMENT
+The <link> tag defines the relationship between the current document and an external resource.The <link> tag is most often used to link to external style sheets or to add a favicon to your website.
+The <a> HTML element( or anchor element) with its href attribute creates a hyperlink to web pages,files,email addresses,location in the same page,or anything else a URL can address.
+Content within each <a> should  indicate the link's destination.If the href attribute is present,pressing the enter key while focussed on the <a> element will activate it.
+The link element is a crucial component used extensively within head section.It serves to connect various assets that should load, such CSS files, fonts and favicons. To inform the browser about the type of asset, utilize the rel attribute as "stylesheet". A link to a favicon would also resemble this,furthemore you can also include a link to preload a font file. It is important to consider that the browser will load the files in the order they are listed.
 
+# The script element
+<script src="my-javascript-file.js"js></script>
+
+The script tag is commonly used element in HTML document head. It instructs the browser to load a JavaScript file.
+The HTML head serves as a central hub for connecting and setting up various componets,ensuring that all assets are loaded and sharing page information with other sites and platforms. In a way it is like headquarters for getting the page off a to good start.
+# Content structuring
+# MAIN
+* Is used once per webpage, tells the browser where the content is located.
+  # Header
+  * Is used for site headers,article readers and headers within the content.
+  * A header is found on top of most webpages and may include a logo site name and navigation.
+    # footer
+    Signifies that there are extra things to convey regardless of its position on the page.
+    # Article
+    The article element wraps around any type of content unit whether it is long written article,a short snippet, a teaser card, a tweet or even an app element. It represent s standalone unit of content.
+    # Section
+    * Is used to mark section of content
+    * useful for diving different topic zones on a website,each section typically start its own headline.
+      # aside
+      * The aside element is for content that is off to the side,like a side bar information or additional details that company an article but not part of the main flow.
+      * The main element is used once per page to wrap the main content, while the header,footer,article, section and aside elements are the five section element in HTML. They are combined and nested to structure the content of a webpage.
                        
            
 
