@@ -253,6 +253,28 @@ The <img> tag is used to embed an image in an HTML page. The src attribute speci
 
                      <HTML lang="en-us">
                      <HTML lang="en-gb"dir="ltr">
+                     <HTML lang="ar"dir="rtl">
+                     <meta charset="UTF-8">
+
+                     * If all your content follow the same direction, define it once on the outer HTML element.
+                     * A <meta> viewport element gives the browser instructions on how to control the pages's dimensions and scalling. The width=device-width part sets the width of the page to follow the screen-width of the device(which will vary depending on the device)
+                     * In general metadata attribute provides a list one or more qualification value,separating those values with whitespace.
+                     * An audience attribute of administrator programmer qualifies the content as applying to administrators and programmers
+
+                       ## HTML Genetic Elements,Div and Span
+                       <div>                                 <span>
+                       Block-level element                   in line element
+                       <div>
+                       * Are used to create sections,sidebars and everything in between.
+                       * Div is a block-level element, while span is an inline element
+                       * They essentialy do nothing until CSS or JavaScript is applied in them
+                       * Div is better referred for a block of content having different nested element,<p> which is used for paragraph and Span is nothing but an empty element.
+                       DIV
+                       <div> tag defines a division  or a section in a HTML document
+                       * The <div> is used a container for HTML elements, which is then styled with CSS or Manipulated with javascript.
+                       ## UNIT 8
+
+                       
            
 
 
