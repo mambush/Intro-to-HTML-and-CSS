@@ -363,6 +363,19 @@ The HTML head serves as a central hub for connecting and setting up various comp
       # aside
       * The aside element is for content that is off to the side,like a side bar information or additional details that company an article but not part of the main flow.
       * The main element is used once per page to wrap the main content, while the header,footer,article, section and aside elements are the five section element in HTML. They are combined and nested to structure the content of a webpage.
+ ## UNIT 9
+ an HTML form is used to collect user input. The user is most often sent to a server for processing.
+ The HTML <form> element is used to create an HTML form for user input:
+ <form>
+   form elements
+ </form>
+ The <form> element isa container for different types of input elements, such as text fields, checkboxes,radio,buttons,submit buttons.
+ <form>
+   <label for="fname">First name:</label><br>
+   <input type="text" id="fname" name="fname"><br>
+   <label for="Iname">Last name:</label><br>
+   <input type="text" id="name" name="Iname">
+ </form>
                        
            
 
