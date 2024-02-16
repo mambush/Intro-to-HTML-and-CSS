@@ -244,7 +244,7 @@ The <img> tag is used to embed an image in an HTML page. The src attribute speci
                    # HTML CONTENT IDENTIFICATION
                    =The lang global attribute helps define the laguage of an element: The langauge that non-editable element are written in or the language that the editable elements should be written in by the user.
                    * The Lang tag(lang="" attribute) is designed to signal screen readers pronunciation engines to switch to another language.
-                   * Thge lang attribute is used to specify the language of a webpage.
+                   * The lang attribute is used to specify the language of a webpage.
                    * It is simple when the whole page is one language.
                    * You set the language on the main element that wraps everything else,which is the HTML element.
                    * You set it once like a template file that applies to the entire set.
