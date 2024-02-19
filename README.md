@@ -376,6 +376,38 @@ The HTML head serves as a central hub for connecting and setting up various comp
    <label for="Iname">Last name:</label><br>
    <input type="text" id="name" name="Iname">
  </form>
+
+ <input element can be displayed in many ways,depending on the type attribute.
+
+ <form>
+
+   form element
+   
+ </form>
+ * The form element is a container for different types of input element such as text field,checkboxes,radio buttons,submit buttons.
+
+* <input> is the most used form element.
+  The method attribute
+  The "method" attribute specifies the HTTP method to be used when submitting the form data.
+  * The form-data can be sent as URL.
+  * variable(with method="get") or as HTTP post transaction(with method="post")
+  * The default HTTP method when submitting form data is GET
+    EXAMPLE;
+    <form action ="location_page.php"method="get">
+    * Forms are used for various task like logging into website,making purchases,conducting searches and adding content.
+    * You create form using the<form>,<input> and <button> elements and understanding various input types.
+    * You can design interactive and user-friendly forms to collect data from your wesite visitors
+    * Interactive form is a form that has a username,password into login field or press button to open a menu, or click a checkbox on a setting page, You are dealing with interactive element such as button and input.
+    ## Form Function
+
+    * An HTML form is used to collect user input. The user input is most often sent to a server for processing.
+    * <form action="success.html"method="get"
+    <label for="name">Id="name"
+    type="text">
+    <label for="email">Email</label>
+
+    ## UNIT 10
+    
                        
            
 
