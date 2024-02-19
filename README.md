@@ -439,6 +439,48 @@ screen readers used by blind people interpret the tags tha exist in an HTML page
     <td> Mexico</td>
   </tr>
 </table>
+
+## INTRODUCTION TO CSS
+# IMAGES AND COLORS
+## UNIT 3
+ * CSS stands for cascanding Stylesheet.
+
+   = STYLING IMAGES
+    Size: You can set the width and the height of an image using the"width" and "height" properties.
+   img {
+      width: 200px;
+      height: 150px;
+   }
+    Alignment: You can control the alignment an image using the "float" property
+    img {
+       float: left;
+   }
+    Borders. You can add borders around iamges using the"border" property.
+   Background color; you can set the background color of an element using the "background-color" property
+    body {
+     background-color: # f0f0f0; /* Hexadecimal color*/
+   * To style images using CSS we use: border-radius
+   * Indentify a color scheme,there goal is to choose a color scheme specific color for your website
+   * Canva approach is a friendly graphic design.
+   * CSS can be used to change the color of images. This can be done by using the color property. The color property can be used to specify the color of text,backgrounds and images.The value of the color property can be a hexadecimal color code, a named color or an RGB value
+   * RGBA allow you to control opacity
+
+       div {
+          background-color: rgba(255,0,0,0.5);/* Red with 50% opacity*/
+     *  Hexidecimal values, are the most common way to specify colors in CSS.
+     *  Hex values are actually just a different way to represent RGB values. Instead of using three numbers between 0 and 255,you use six hexadecimal numbers.Hex numbers can be 0-9 and A-F.
+     *  CSS color can be specified using a hexadecimal value in the form:
+    
+       #rrggbb
+
+      where rr(red),gg(green) and bb(blue) are hexadecimal values 00 and ff( same as decimal 0 -255)
+     for example,#ff0000 is displayed as red, because red is set to its highest value(ff) and the others are set to the lowest value(00).
+     To display white,set all values to ff, like this #ffffff
+     (#ff) Red
+     (63) Green
+     (47) Blue
+     
+     
   
                        
            
