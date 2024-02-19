@@ -407,6 +407,15 @@ The HTML head serves as a central hub for connecting and setting up various comp
     <label for="email">Email</label>
 
     ## UNIT 10
+
+    A table is a structured set of data made up of rows and columns(tabular data). A table allows you to quickly and easily look up values that indicatesome kind of connection between different types of data for example a person and their age, or a day of the week, or the timetable for a local swimming pool.
+    # How does table work
+    The point of a table is that it is rigid.
+    * Information is easily interpreted by making visual associations betweeen row and column headers.
+    * HTML tables are handled well by accessiblity tools such as screen readers, so succeful HTML table should enhance the experience of sighted and visually impaired users alike.
+
+      Table styling
+      You need to provide some styling information with CSS, as well as good solid structure with HTML.
     
                        
            
