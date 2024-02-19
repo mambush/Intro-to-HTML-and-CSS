@@ -414,9 +414,13 @@ The HTML head serves as a central hub for connecting and setting up various comp
     * Information is easily interpreted by making visual associations betweeen row and column headers.
     * HTML tables are handled well by accessiblity tools such as screen readers, so succeful HTML table should enhance the experience of sighted and visually impaired users alike.
 
-      Table styling
-      You need to provide some styling information with CSS, as well as good solid structure with HTML.
-    
+      Table styling,You need to provide some styling information with CSS, as well as good solid structure with HTML.
+    *The layout tables reduce accessibility for visual impaired users;
+screen readers used by blind people interpret the tags tha exist in an HTML page and read out the contents to the user.Because tables are not the right tool for layout,and the mark up is complex tha wit CSS layout techniques, the screen readers output will be confusing to their users.
+* The table layout generally involve more complex markup structure than proper layout techniques.
+
+  Headers with<th> elements
+  
                        
            
 
