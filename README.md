@@ -419,7 +419,26 @@ The HTML head serves as a central hub for connecting and setting up various comp
 screen readers used by blind people interpret the tags tha exist in an HTML page and read out the contents to the user.Because tables are not the right tool for layout,and the mark up is complex tha wit CSS layout techniques, the screen readers output will be confusing to their users.
 * The table layout generally involve more complex markup structure than proper layout techniques.
 
-  Headers with<th> elements
+  * An HTML table is created with an opening<table> and a closing</table>
+  Inside these tags data is organized into rows and columns by using opening and closing table row <tr> tags and opening and closing table data <td> tags. Table row <tr> tags are used to create a row of data.
+ Example;
+<table>
+  <tr>
+    <th> Company</th>
+    <th>Contact</th>
+    <th> Country</th>
+  </tr>
+  <tr>
+    <td> Alfred Futterkiste</td>
+    <td>Maria anders</td>
+    <td> Germany</td>
+  </tr>
+  <tr>
+    <td> Centro</td>
+    <td> Francisco</td>
+    <td> Mexico</td>
+  </tr>
+</table>
   
                        
            
