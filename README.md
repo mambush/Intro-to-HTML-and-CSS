@@ -545,7 +545,7 @@ CSS selector are to "find"(or select) the HTML element you want to style.
           color:  red;
           }
           
-        ## UNIT 3  
+        ## UNIT 3 IN CSS
 
    = STYLING IMAGES
     Size: You can set the width and the height of an image using the"width" and "height" properties.
