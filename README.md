@@ -498,6 +498,53 @@ Selectors       Properties      values
 = p             Margin           25%
 
  * All of this together create the block of your webpage.
+## UNIT 2
+A CSS selector the HTML element you want to style.
+CSS selector are to "find"(or select) the HTML element you want to style.
+* we can divide CSS selector into five categories:
+  = ID selector
+  * The ID selector uses the Id attribute of an HTML element to select a specific element
+  * The Id of an element is unique within a page, so the Id selector is useed to select one unique element
+  * To select an element with specific id,write a hash# character,followed by Id of the element.
+
+#para1 {
+   text-align: center;
+    color:  red;
+    }
+    </style>
+    </head>
+    <body>
+     <p id="para1">Hello word!</p>
+
+    CSS Class Selector
+    * The class selector selects HTML element with a specific class attribute.
+    * To select elements with a specific class,write a period(.) character, followed by the class.
+    .Center {
+      text-align: center;
+      color: red;
+      }
+      HTML elements can also refer to more than one class
+
+      EXAMPLE:
+       <p class="center large"> This paragraph refers to classes</p>
+
+       Universal Selector
+
+       The universal selector (*) selects all HTML elements on the page.
+       The CSS rule below will affect every HTML element on the page.
+       *{
+        text-align: center;
+        color: blue;
+        }
+         Grouping selector
+
+      The grouping selector selects all the HTML element with the same style definitions.
+
+      h1,h2,p {
+          text-align: center;
+          color:  red;
+          }
+          
 
 
 
