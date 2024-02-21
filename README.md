@@ -442,7 +442,7 @@ screen readers used by blind people interpret the tags tha exist in an HTML page
 
 ## INTRODUCTION TO CSS
 # IMAGES AND COLORS
-## UNIT 1
+## UNIT 1 IN CSS
  * CSS stands for cascanding Stylesheet.
 * Is a file that holds all the style for your webpage.
 * CSS adds visual appeal to your webpage
@@ -498,7 +498,7 @@ Selectors       Properties      values
 = p             Margin           25%
 
  * All of this together create the block of your webpage.
-## UNIT 2
+## UNIT 2 IN CSS
 A CSS selector the HTML element you want to style.
 CSS selector are to "find"(or select) the HTML element you want to style.
 * we can divide CSS selector into five categories:
@@ -545,62 +545,7 @@ CSS selector are to "find"(or select) the HTML element you want to style.
           color:  red;
           }
           
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        ## UNIT 3  
 
    = STYLING IMAGES
     Size: You can set the width and the height of an image using the"width" and "height" properties.
