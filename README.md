@@ -442,8 +442,118 @@ screen readers used by blind people interpret the tags tha exist in an HTML page
 
 ## INTRODUCTION TO CSS
 # IMAGES AND COLORS
-## UNIT 3
+## UNIT 1
  * CSS stands for cascanding Stylesheet.
+* Is a file that holds all the style for your webpage.
+* CSS adds visual appeal to your webpage
+* CSS describe how HTML elements are to be  displayed on Screen,paper or in other media.
+* CSS saves a lot of work. It can control the layout of multiple web pages all at once
+* External stylesheets are stored in CSS file.
+
+  # We use CSS:
+  * We use CSS to define styles for your webpages,including the design,layout and variations in display for different devices and screen sizes.
+
+     = In CSS we use selectors to target HTML elements and define how should they look.
+    # We have three types of CSS
+    * Inline
+    * Internal
+    * External
+   # INLINE
+  *Is where you write your css on your HTML file
+  <p style="color;"> This is paragraph</p>
+  # INTERNAL
+  * Is a dedicated session in your HTML file for your styles
+  <head>
+    <style type=text/css>
+      body(background-color:blue: }
+           p { color:yellow:}
+      </style>
+  </head>
+  # EXTERNAL CSS
+  * Is a form of CSS which is used to add styling to multiple HTML pages at a time. External CSS helps to design the layout of many HTML webpages simultaneously. The External css is always saved with the CSS extension, and through this file, we can change the complete style of our HTML webpages.
+  * External is more like a separated CSS file that can be accessed by creating a link within the head section of webpages.
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css"
+  </head>
+  ## CSS syntax
+  A CSS rule consists of a selector and a declaration block
+
+for example:
+<h1> is a selector
+The selector points to the HTML element you want to style.
+The declaration block contains one or more declarations separated by semicolons.
+* Each declaration includes a css property name and a value separated by a colon.
+* Multiple CSS declaration are separated with semicolons, and declaration blocks are surrounded by curly braces.
+Example:
+p {
+color: red;
+text-align: center;
+}
+P is a selector in CSS(It points to the HTML) element you want to style:</p>
+* Color is a property,red is the property value
+*Text-align is a property and center is the property value.
+## Example;
+Selectors       Properties      values
+= h1            color            Red
+= p             Margin           25%
+
+ * All of this together create the block of your webpage.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
    = STYLING IMAGES
     Size: You can set the width and the height of an image using the"width" and "height" properties.
