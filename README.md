@@ -443,6 +443,8 @@ screen readers used by blind people interpret the tags tha exist in an HTML page
 ## INTRODUCTION TO CSS
 # IMAGES AND COLORS
 ## UNIT 1 IN CSS
+
+
  * CSS stands for cascanding Stylesheet.
 * Is a file that holds all the style for your webpage.
 * CSS adds visual appeal to your webpage
