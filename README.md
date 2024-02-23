@@ -583,7 +583,19 @@ CSS selector are to "find"(or select) the HTML element you want to style.
      (#ff) Red
      (63) Green
      (47) Blue
-     
+
+     ## UNIT 4
+
+     = Serif
+     = Sans serif
+     * Serif fonts have small lines at the ends of letter called "Serif"
+     * Serif help connect the letters, making the text easier to read
+
+       * Sans serit fonts do not have more modern appearance wit computer type setting, Sans serit fonts are mainly used for extend text because they look clean and are easy to read.
+       * Serif-font have a small stroke at the edges of each letter.
+       * They create a sense of formality and elegance.
+       * Sans-serif fonts have clean line(no small strokes attached)They create a modern and minimalistic look.
+          
      
      
   
