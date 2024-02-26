@@ -595,6 +595,9 @@ CSS selector are to "find"(or select) the HTML element you want to style.
        * Serif-font have a small stroke at the edges of each letter.
        * They create a sense of formality and elegance.
        * Sans-serif fonts have clean line(no small strokes attached)They create a modern and minimalistic look.
+       * Monospace-fonts here all the letters have the same fixed width. They create a mechanical look.
+       * Cursive-fonts imitate human handwriting.
+       * Fantasy-fonts are decorative/playful fonts.
           
      
      
