@@ -598,6 +598,12 @@ CSS selector are to "find"(or select) the HTML element you want to style.
        * Monospace-fonts here all the letters have the same fixed width. They create a mechanical look.
        * Cursive-fonts imitate human handwriting.
        * Fantasy-fonts are decorative/playful fonts.
+         # Appyling Type formatting with CSS
+         The <span> tag is also useful for marking up content to be styled with CSS.
+         * It is in conjuction with the class and ID attributes, the <span> tag helps you assign class attributes to inline sections od text.
+         * Font styles: Properties that affect a text's font,e.g,which fonts gets applied,its size and whether its bold italic
+         * Text layout styles: Properties that affect the spacing and other layout features of the text,allowing manipulation of,for example,the space between lines and letters and how text is aligned with the content box.
+         * 
           
      
      
