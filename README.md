@@ -638,8 +638,45 @@ It will only add the margin to the right side of the box
 
 ## UNIT 5
 = Links play a significant role on the internet.Typically, links are blue and underlined and once you click on them, they turn purple.
-* Target links using the "a" anchor tag. We can specify "a" and
-          
+* Target links using the "a" anchor tag. We can specify "a" and set the color to 648ff, a nicer blue color than before. This style will apply to all links,including visited links, which will also turn blue.
+* A common exception  called the "a:hoover", which triggers when we hoover over a link, the color can be changed to pink(fe6100) and the underline can be removed using  text-decoration:none;
+* Links can be styled with any CSS property(e.g color,font-family,background,etc)
+
+  The four links states are:
+  * a:link-normal,unvisited link
+  * a:visited- a link the user has visited
+  * a:hover- a link when the user mouse over it
+  * a:active-a link the moment it is clicked
+    ## TEXT-DECORATION
+    The text-decoration property is mostly used to remove underlines from links.
+    ## Background
+    * The background-color property can be used to specify a background color for links:
+      = a:link{
+      background-color:yellow;
+      }
+      = a: visited{
+        background-color: cyan;
+        }
+      = a: hover{
+       background-color: lightgreen;
+      = a: active{
+       background-color: hotpink;
+      }
+      ## Inheritance in CSS
+      * Inheritance is where specific Css properties are passed down to descendant elements
+      * Inheritance is designed to make it easier for Authors. Otherwise we would need to specify properties for all descedant element.
+      * CSS would be much larger in Size,harder to create and maintain as well as slower to download.
+      * Text-related properties that are inherited:
+        = font-family
+        = font-size
+        = font-style
+        = font-variant
+        = font-weight
+        = font
+        = Text-align
+        = Text-indent
+        = Text- transform
+        = word-spacing
      
      
   
