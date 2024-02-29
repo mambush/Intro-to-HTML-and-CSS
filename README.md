@@ -546,8 +546,10 @@ CSS selector are to "find"(or select) the HTML element you want to style.
           text-align: center;
           color:  red;
           }
+
           
-        ## UNIT 3 IN CSS
+        ## UNIT 3
+        
 
    = STYLING IMAGES
     Size: You can set the width and the height of an image using the"width" and "height" properties.
@@ -603,7 +605,30 @@ CSS selector are to "find"(or select) the HTML element you want to style.
          * It is in conjuction with the class and ID attributes, the <span> tag helps you assign class attributes to inline sections od text.
          * Font styles: Properties that affect a text's font,e.g,which fonts gets applied,its size and whether its bold italic
          * Text layout styles: Properties that affect the spacing and other layout features of the text,allowing manipulation of,for example,the space between lines and letters and how text is aligned with the content box.
-         * 
+
+# The purpose of applying type of formatting
+* The goal is to make things look decent and readable, but perfections on every device is not neccessary.
+* Set Arial, Helvetica, Sans-serif as the fonts for the entire page.
+* For headings use a Serif font like Georgia and Times New Roman
+  # Understanding the size
+  Absolute size, such as points or pixels,remain the same regardless of the screen size
+  * Relative units like percentange or R-E-M(pronounced "rem") can adjust based on the page size. When I zoom in, the font sizes using relative units scale proportionally with the rest of the page. Most developers use relative units for better flexibility.
+  * The preffered font size unit by developers is usually"rem".
+  * 1 rem is equivalent to 16 pixels
+  * If the font size is specified as 1.5 rem, you can multiply it by 16 to get the size in pixels, which would be approximately 24 pixels.
+    # Understanding the box model in CSS
+    * CSS Box model is a container that contains multiple properties including borders,margin,Padding and the content itself. It is used to create the design and layout.
+
+      In the box model we have:
+      * The content
+      * The border
+      * Padding
+      * Margin
+
+The content; is the text inside the box,it is where text and images appear.
+
+=The border ; is the surrounding the content, the border goes around the padding and Content, The border is like a line surrounding the content. We can choose to display all four sides of the border or just a few and there are various styles available for the border.
+= Margin; Represent the space between element on the page. Margin clears an area outside the border, if you want to seperate intersecting elements you add some margin which will do the trick.
           
      
      
