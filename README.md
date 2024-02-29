@@ -629,6 +629,16 @@ The content; is the text inside the box,it is where text and images appear.
 
 =The border ; is the surrounding the content, the border goes around the padding and Content, The border is like a line surrounding the content. We can choose to display all four sides of the border or just a few and there are various styles available for the border.
 = Margin; Represent the space between element on the page. Margin clears an area outside the border, if you want to seperate intersecting elements you add some margin which will do the trick.
+You can create a solid red border around the element by;
+"border:1px solid red";
+But if we say "border-left" it will only apply the red border to the left of the box, while the others sides remain unaffected.
+= When using "Margin: 1rem" will add one REM(root em) of margin to all four sides of the box. But if we use "margin-right"
+It will only add the margin to the right side of the box
+= Padding provides flexibility.
+
+## UNIT 5
+= Links play a significant role on the internet.Typically, links are blue and underlined and once you click on them, they turn purple.
+* Target links using the "a" anchor tag. We can specify "a" and
           
      
      
