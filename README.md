@@ -456,7 +456,7 @@ screen readers used by blind people interpret the tags tha exist in an HTML page
   * We use CSS to define styles for your webpages,including the design,layout and variations in display for different devices and screen sizes.
 
      = In CSS we use selectors to target HTML elements and define how should they look.
-    # We have three types of CSS
+    # We have three types of CSS:
     * Inline
     * Internal
     * External
