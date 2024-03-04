@@ -677,6 +677,20 @@ It will only add the margin to the right side of the box
         = Text-indent
         = Text- transform
         = word-spacing
+
+        # JAVASCRIPT
+        ## INTRODUCTION TO JAVASCRIPT
+        # WHAT IS JAVASCRIPT?
+
+        *Javascript is a programming language use to make web pages interactive. It is what gives a page life-the interactive element and animations that engages the user.
+        * Javascript is one of the three pillars of the web development-the other two being HTML AND CSS. Javascript was purposely designed to intergrate in HTML. All major web browser support Javascript.
+        * Javascript is the world most popular programming language
+        * Javascript is the programming language of the web
+        * Javascript creates interactivity
+          = For your website to function on your Mobile devices we use Javascript
+          * Javascript runs right in your browser.
+          * Javascript provides a real-time content updates.
+        
      
      
   
