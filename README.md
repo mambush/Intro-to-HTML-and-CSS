@@ -690,6 +690,11 @@ It will only add the margin to the right side of the box
           = For your website to function on your Mobile devices we use Javascript
           * Javascript runs right in your browser.
           * Javascript provides a real-time content updates.
+
+            # Javascript Variables
+            * One of the fundamental characteristics of a programming language is the set of data types it supports
+            * Variables can be thought of as named containers.
+            * You can place data into these containers and then refer to the data simply by naming containes.
         
      
      
