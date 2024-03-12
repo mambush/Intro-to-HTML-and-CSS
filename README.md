@@ -695,6 +695,37 @@ It will only add the margin to the right side of the box
             * One of the fundamental characteristics of a programming language is the set of data types it supports
             * Variables can be thought of as named containers.
             * You can place data into these containers and then refer to the data simply by naming containes.
+              # NOTE
+              = Before you use a variable in Javascript program, you must declare it. Variable are declared with the var.
+              var money;
+              var name;
+              * var a=10;
+                var b=20;
+                var sum=a+b;
+                * var: Used to declare variables globally or within a function scope. It's less commonly used nowadays.
+
+* let: Introduces block scope and allows the variable's value to be changed.
+
+* const: Also introduces block scope, but the value of a const variable cannot be changed after it's assigned.
+
+  # Operators
+  * Operators are symbol that perform operations on values. There are several types of operators in javascript
+    · Arithmetic operators: +, -, *, /, % (addition, subtraction, multiplication, division, modulus).
+
+* Assignment operators: =, +=, -=, *=, /= (assigning and modifying values).
+
+* Comparison operators: ==, ===, !=, !==, >, <, >=, <= (comparing values).
+
+* Logical operators: &&, ||, ! (logical AND, logical OR, logical NOT).
+  Javascript operators the operands, these symbols that are used to manipulate a certain value or operand. Operators are used to performing specific mathematical and logical computations on operands.
+  # Javascript assignment
+  * The assignment(=) operator is used to assign a value to a variable or property. The assignment expression itself has a value, which is the assigned value. This allows multiple assignments to be chained in order to assign a single value to multiple variables.
+    Assignments operators( =,+=,-=,*=,/=):
+    * assign and modify values.
+
+      # DAY 2 ( Strings and Arrays)
+      
+    
         
      
      
