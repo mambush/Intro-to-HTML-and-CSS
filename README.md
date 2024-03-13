@@ -724,6 +724,59 @@ It will only add the margin to the right side of the box
     * assign and modify values.
 
       # DAY 2 ( Strings and Arrays)
+
+      # Array
+      * Array are a fundamental part of most programming  languages and scripting languages. Array are simply an ordered stack of data items with same data types.
+      * Using Arrays , you can store multiple under a single name.Instead of using a separate variable for each items,you can use one array to hold all of them.
+
+        # Creating Array
+        = Most programming languages use similar syntax to create arrays. Javascript arrays are created by first assigning an array object to a variable name.
+
+        [ var array_name=new Array(number_of_element)]
+
+        * When you assign a value to a array you write:
+          [ Array_name[0]="array element"]
+
+          * So,using our prior example, we could write:
+            = var faq=new Array(3)
+            = faq[0]="what are javascript arrays"
+            = faq[1]="How to create arrays in Javascript?"
+            = faq[2]="what are two dimensional arrays?"
+
+            * Also an Array is a special variable, which can hold more than one value:
+
+              # Why use Arrays
+              If you have a list of items( a list of car names, for example), storing the cars in single variables could look like this:
+              = let car 1="Saab";
+              = let car2="volvo";
+              = let car 3="Bmw";
+
+              Syntax:
+
+              Const array_name=[item1,item2,...];
+              It is a common practise to declare arrays with the const keyword.
+
+              Example;
+              const cars=["Saab","volvo","Bmw"];
+
+              You can also create an array,and then provide the elements:
+
+              Example;
+              Const cars=[];
+              Cars[0]="Saab";
+              cars[1]="volvo";
+              cars[2]="Bmw";
+
+              Accessing Array Element
+              * You can access an array element by referring to the index number;
+                = Const cars=["Saab","Volvo","Bmw"];
+                let car=cars[0];
+                car[0]="Opel";
+
+                Example
+                const cars=["Saab","volvo","Bmw"];
+                cars[0]="Opel";
+              
       
     
         
