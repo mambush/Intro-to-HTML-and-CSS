@@ -803,6 +803,12 @@ It will only add the margin to the right side of the box
                     let answer 1="It's alright";
                     let answer 2= "He's called 'Johnny'";
                     let answer 3= 'He's called "Johnny"';
+
+ * Strings can be created as primitive,from string literals, or as a object using the string() constructor.
+    # Primitive string
+   Const string 1 = "A string primitive";
+  # Object string
+  * Const string 4= newString("A String object")
               
       
     
