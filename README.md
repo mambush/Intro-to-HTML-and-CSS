@@ -728,6 +728,9 @@ It will only add the margin to the right side of the box
       # Array
       * Array are a fundamental part of most programming  languages and scripting languages. Array are simply an ordered stack of data items with same data types.
       * Using Arrays , you can store multiple under a single name.Instead of using a separate variable for each items,you can use one array to hold all of them.
+      * Array: A data structure in JavaScript that allows you to store multiple values in a single variable. Array Element: Each value within an array is called an element. Elements are accessed by their index. Array Index: A numeric representation that indicates the position of an element in the array.
+      *  we can say that in computer programming, arrays are generally used to organize the same type of data.
+      *  An array is a group of similar elements or data items of the same type collected at contiguous memory locations. In simple words, we can say that in computer programming, arrays are generally used to organize the same type of data.
 
         # Creating Array
         = Most programming languages use similar syntax to create arrays. Javascript arrays are created by first assigning an array object to a variable name.
@@ -776,6 +779,30 @@ It will only add the margin to the right side of the box
                 Example
                 const cars=["Saab","volvo","Bmw"];
                 cars[0]="Opel";
+
+                # Strings
+                * A String is a sequence of one or more characters that may consists of letters, numbers or symbols. Strings in javascript are premitive data types and immutable, which means they are unchanging.
+                * A string is used to represent text rather than numbers.
+                * A string can contain letters,numbers,symbols and even spaces. It must be enclosed in quotation marks for it to be recognised as a string.
+                * Strings are useful for holding data that can be represented in text form. Some of the most-used operations on strings are to check their length to build and concatenate them using the -+ and += operators, checking for the existence or location of subscript with the index() method, or extracting substrings with the substrings()methond.
+
+                * A string can be any text inside double or single quotes
+                   # Example:
+                  = let carName 1="volvo XC60"; let carName 2="volvo XC60";
+
+                   # How to declare a string
+
+                    You can declare a string variable like this:
+                  Var myName="your Name";
+                  # Note
+                  * "your Name" is called a string literal. A string literal or string is a series of zero or more characters enclosed in single or double quotes
+                    = which means there is no difference between the two.
+                    # You can Add a string inside a string
+                    = You can add a string inside a string as long they do not match the quotes surrounding the string.
+                    For example:
+                    let answer 1="It's alright";
+                    let answer 2= "He's called 'Johnny'";
+                    let answer 3= 'He's called "Johnny"';
               
       
     
