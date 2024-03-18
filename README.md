@@ -809,6 +809,44 @@ It will only add the margin to the right side of the box
    Const string 1 = "A string primitive";
   # Object string
   * Const string 4= newString("A String object")
+    # Booleans
+    In JavaScript, boolean is a basic data type that can represent true or false values. It's frequently applied to conditional statements and logical procedures. Here's a quick rundown of how JavaScript handles booleans:
+
+Declaration and Initialization: The true and false keywords can be used to declare and initialise booleans.
+
+JavaScript
+Copy the programming
+let isFalse = false; let isTrue = true;
+Operators with logic:
+Logical operators for working with boolean values are provided by JavaScript:
+
+If both operands are true, the logic AND operator && returns true. If one or more operands are true, the function (logical OR) returns true. Returns the operand's opposite boolean value (logical NOT).
+JavaScript
+Copy the code: let y = false; let x = true;
+
+log.console(x && y); // false log.console(x || y); // true log.console(!x); // false
+Operators for comparison:
+Based on the comparison, comparison operators return boolean values.
+ # Functions
+ One of the core components of JavaScript is a function, which lets you wrap a code block and run it repeatedly. An overview of JavaScript functions is provided here:
+
+Function Declaration: The function keyword, the function name, and two parenthesis containing any parameters the function should accept are used to declare a function. Curly braces {} encapsulate the function body.
+
+
+JavaScript
+The code for the function greet(name) is copied as follows: console.log("Hello, " + name + "!");
+Function Expression: This is the name given to the assignment of functions to variables.
+
+JavaScript
+Copy the following code: const greet = function(name) { console.log("Hello, " + name + "!"); };
+Arrow Operations:
+When writing functions, especially simple ones, arrow functions offer a more condensed syntax.
+
+JavaScript
+Paste the code const hello = (name) => console.log("Hello, " + name + "!"); };
+Invocation of a Function:
+After a function is established,
+    
               
       
     
