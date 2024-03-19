@@ -846,6 +846,12 @@ JavaScript
 Paste the code const hello = (name) => console.log("Hello, " + name + "!"); };
 Invocation of a Function:
 After a function is established,
+
+## week 2
+# Document object Model and JavaScript syntax
+* The Document object model is an application programming interface(API) for HTML documents.It does two things for web developers:
+  = Provides a structural representation of the document
+  = Defines the way that structure is to be accessed from script.
     
               
       
