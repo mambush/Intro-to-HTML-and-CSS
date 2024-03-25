@@ -936,8 +936,47 @@ return(In string.big())
 = create a new object:
 > ret=new makeSimpleobject();
 > function makeSimpleObject(){}
-= The new object is called "ret". You just have to use any valid variable name for the new object.(use lower-case letters for variables that objects
-                       
+= The new object is called "ret". You just have to use any valid variable name for the new object.(use lower-case letters for variables that contain objects, so it's easier to tell that the variable contain an object)
+
+# Defining new properties to already-made objects
+
+> After an object has been created you can assign a value to it. But instead of just assigning a value to the object itself, you should define a new property for the object, and assign a value to the property. To create a new property and assign a value to it. You write a variable expression like this:
+
+my object.property=value; > myobject is the name of the user-defined object
+                          > property is the name of the property you want to create
+                          > value is the value you want to assign
+
+let's say you want to create an object called"customer" and you want to define three properties to it: name,address, and phone.
+
+Customer=new makeSimpleObject();
+Customer.name="fred";
+Customer.address="123 Main Street";
+Customer.Phone="555-1212";
+function makeSimpleObject(){
+return(this);
+}
+
+You can verify that you have created a new object and assigned properties to the object my adding an alert method to display one of the properties for example:
+> You could put this after the customer.phone line. When you run the script the alert box will say "fred" for example:
+> alert(customer.name);
+# Defining properties when you create the object
+Another method of defining properties for object is to include the property names in the object function.
+> Customer=new makeCustomer("fred","123 Main street", "555-1212");
+> alert( Customer.name);
+> function makeCustomer(Name,address,Phone){
+this.name=Name;
+this.address;
+this.Phone=Phone:
+}
+> These statements are assigned a property to the current object, which is the one being created in the makecustomer object function.
+> Three parameters are passed to the object statement:
+* Customer's name
+* Address
+* Phone number
+  # Note:
+  > These parameters are used to define the content of the three properties, which are name, address and Phone.
+  > Javascript imposes no limitations on the number of properties you can assign to an object, just do this:
+  * Customer=new makeCustomer("fred","123 Main Street","555-1212");                      
            
 
 
