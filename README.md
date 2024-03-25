@@ -903,13 +903,40 @@ Object initializers are expressions, and each object initializer results in a ne
     * alert() causes an alert dialog box to appear over the page that launched it.
     * write() writes content to a page
     * focus() causes the mouse cursor to be inserted into a form element.
-              
-      
-    
-        
-     
-     
-  
+              # Day 2
+      ## Calling one function from another function
+      * Code inside a function behaves just like code anywhere else.
+      * This means you can call one function from inside another function.
+      * This allows you to"nest" functions,So that you can create separate functions, which each perform a specific task, and then run them together as a complete process one right after the other. for example,here's a function that calls three other mythical function, each one returning a string of text that has been altered:
+        = function run(){
+        var Ret= changeText("change me");
+      alert(Ret);
+document.write(Ret);
+}
+  function changeText(text){
+ text=makeBold(text);
+text=makeItalics(text);
+text=makeBig(text);
+return(text);
+}
+ function makeBold(In string) {
+return(In String.bold());
+}       
+ function makeItalics(In String){
+return(In string.italics());
+}    
+ function makeBig(In string){
+return(In string.big())
+}    
+ # Creating objects with user-defined functions
+ * Javascript is based on object: the window is an object, links are objects,forms are object, even NetScape itself( or other browser) is an object. Using objects can help make programming easier and more streamlined. You can extend the use of object in javascript by making your own.
+   # Making new object entails two steps
+> Define the object in a user-defined function.
+> Use the new keyword to create( or instantiate) the object with a call to the object function
+= create a new object:
+> ret=new makeSimpleobject();
+> function makeSimpleObject(){}
+= The new object is called "ret". You just have to use any valid variable name for the new object.(use lower-case letters for variables that objects
                        
            
 
