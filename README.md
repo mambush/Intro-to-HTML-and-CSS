@@ -852,7 +852,57 @@ After a function is established,
 * The Document object model is an application programming interface(API) for HTML documents.It does two things for web developers:
   = Provides a structural representation of the document
   = Defines the way that structure is to be accessed from script.
-    
+
+  * In Javascript syntax has to do with objects. To access an object, property or method, its reference must include every object that contains it,Separated by a dot.
+    = This is called the"dot syntax".
+    # Object
+    * A javascript object  is any scriptable HTML element, that is any Html element within  a document that may be accessed through the javascript language. Although the browser window is not as HTML element, it too is a scriptable object. Although the browser window is not an HTML element,it too is scriptable object.
+    * An object is a collection of properties and a property is an association between a name( or key) and a value. A property value can be a function, in which case the property is known as a method. Object in Javascript, just as in many other programming language can be compared to object in real life.
+    * In javascript, an object is a standalone entity with properties and type. Compare it to a cup for example. A cup is an object, with properties, A cup has a color, a design, weight, a material it is amde of. The same way Javascript objects can have properties, which define characteristics.
+
+      # Creating an object
+      const obj={
+      property 1: value 1, ( property name can be an identifier)
+      2: value 2( or it can be a number)
+      "property n": value 3 ( or can be a string)
+      };
+      * Each property name before colons is an identifier( either a name, a number, or a string literal), and each value N is an expression whose value is assigned to the property name. The property name can also be expression; computed keys need to be wrapped in square brackets. The object initializer reference contains a more detailed explanation of the syntax.
+
+In this example, the newly created object is assigned to a variable obj — this is optional. If you do not need to refer to this object elsewhere, you do not need to assign it to a variable. (Note that you may need to wrap the object literal in parentheses if the object appears where a statement is expected, so as not to have the literal be confused with a block statement.)
+
+Object initializers are expressions, and each object initializer results in a new object being created whenever the statement in which it appears is executed. Identical object initializers create distinct objects that do not compare to each other as equal.
+
+# Objects and Properties
+* A javascript object has properties associated with it. Object properties are basically the same as variables,except that they are associated with objects, not scopes. The properties of an object define the characteristics of the object.
+
+  Const myCar= {
+  make:"Ford",
+  model:""Mustang",
+  year: 1969,
+  },
+  # Properties
+  A javascript property is a member of an object that associates a key with a value. A javascript object is a data structure that stores a collection of properties.
+  * A property consists of the following parts:
+    = A name(also called a key),which is either a string or a symbols.
+    = A value, which can be any javascript value. A property that has a function as its value may also be called a "Method"
+    Example:
+    const obj={
+    a=1,
+    b() {},
+    };
+  # Method
+  = Method are actions that can be applied directly to objects.
+  = Method definition is a shorter syntax for defining a function property in an object.
+  * Method are signified by parenthesis immediately following their name, e.g "Alert()". These parenthesis sometimes hold value called parameters, which are required by some methods.
+
+  
+    = A parameter is simply information needed by a method in order to accomplish its task. for instance, the alert() method pops an alert box without using a parameter, the alert method will generate a dialog box,
+    ( using Internet Explore) alert() which is meaningless. But with a parameter, the alert method will generate a dialog box alert("Hello word") which communicates a message to the end user.
+
+      Javascript Methods
+    * alert() causes an alert dialog box to appear over the page that launched it.
+    * write() writes content to a page
+    * focus() causes the mouse cursor to be inserted into a form element.
               
       
     
