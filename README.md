@@ -1005,7 +1005,10 @@ this.Phone=Phone:
       > The return value matches the expression to the right of the= sign in the"meaning" column of the above table.
       > That means that(x=y) returns y,(x+=y) returns the resulting sum x+y,(x**=y) returns the resulting power x**y, and so on.
 
-      > In the case of logical assignments,(x&&=y),(x||=y), and (x??=y), the return value is that of the logical operation without the assignment, so x&&y,x||y, and x??y respectively
+      > In the case of logical assignments,(x&&=y),(x||=y), and (x??=y), the return value is that of the logical operation without the assignment, so x&&y,x||y, and x??y respectively.
+      ## Note:
+      > The return value are always based on the operands value before the operation.
+      > when chaining these expression,each assignment is evaluated right to left.
            
 
 
