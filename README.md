@@ -1009,6 +1009,45 @@ this.Phone=Phone:
       ## Note:
       > The return value are always based on the operands value before the operation.
       > when chaining these expression,each assignment is evaluated right to left.
+
+      ## Day 3
+      >Javascript "this" keyword
+      * It contains properties(name and age) and a method greet. In the method greet, while accessing a property of an object, this keyword is used. In order to access the properties of an object, this keyword is used following by key.
+
+        > "This"
+        > In javascript, the "this" keyword refers to an object.
+        > which object depends on how this is being invoked(used or called)
+        > The this keyword refers to different objects depending on how it is used.
+        > In an object method, this refers to the object.
+        > Alone, this refers to the global object.
+        > In a function, this refers to the global object
+        ## Note
+        "this" is not a variable. It is a keyword. Which means you cannot change the value of "this"
+        = This in a method
+        > when used in an object method,"this" refers to the object.
+        > In javascript, object can also contain functions
+        = object containing method
+        > let person={
+              name:'john',
+              greet: function(){ console.log('hello');}
+        };
+        > A person object has a key(name and greet) and String value  and a function value.
+        > The Javascript method is an object property that has a function value.
+         ## Accessing object Methods
+        > You can access an object method using a dot notation. The syntax is:
+        = ObjectName.methodkey()- syntax
+
+        > You can access a method by calling an objectName and key for that method along with(). And you can access property only by calling an objectName and a key.For example:
+        * Accessing method and property:
+          > let person={
+                name:'John',
+                greet: function(){ console.log('hello');}
+          };
+          * Accessing property:
+            >person.name;//john
+             // accessing method
+               person.greet(); // hello
+            >The greet method is accessed as person.greet() instead of person.greet
            
 
 
