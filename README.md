@@ -903,7 +903,9 @@ Object initializers are expressions, and each object initializer results in a ne
     * alert() causes an alert dialog box to appear over the page that launched it.
     * write() writes content to a page
     * focus() causes the mouse cursor to be inserted into a form element.
-              # Day 2
+   
+              ## DAY 2
+      
       ## Calling one function from another function
       * Code inside a function behaves just like code anywhere else.
       * This means you can call one function from inside another function.
@@ -976,7 +978,34 @@ this.Phone=Phone:
   # Note:
   > These parameters are used to define the content of the three properties, which are name, address and Phone.
   > Javascript imposes no limitations on the number of properties you can assign to an object, just do this:
-  * Customer=new makeCustomer("fred","123 Main Street","555-1212");                      
+  * Customer=new makeCustomer("fred","123 Main Street","555-1212");
+  * Customer.salutation="MR";
+
+    # Operators
+    > Javascript has both binary and unary operators.
+    > Unary operators is an operation with only one operand. This operand comes either before or after the operator. Unary operator are more efficient than standard javascript function calls. Additionally, unary operator can be not be overriden, therefore their functionality is guarenteed.
+    > A unary operator is an operator that operates on a single operand to produce a new value.Example:
+    *Unary minus(-),unary plus(+),increment(++),decrement(--), logical Not(!), bitwise Not(~),address of (&), dereference(*), and size of operators.
+    > Javascript has both binary and unary operators, one special ternary operator, the conditional operator. A binary operator requires two operands, one before the operator and one after the operator.
+
+    * A unary operators requires a single operand,either before or after the operator.
+      > operand  operand
+      or
+      > operand  operator
+       ## Assignment Operators
+      Return value and chaining
+      > Like most expression, assignments like x=y have a return value. It can be retrieved by e.g assigning the expression or logging it:
+
+      > An assignment operator assigns a value to its left operand based on the value of its right operand. The simple assignment operator is equal(=), which assigns the value of its right operand to its left operand.That is x=y assigns the value
+
+      ## Table
+      const z=(x=y); or equivalently: const z=x=y;
+      Console.log(z): log the return value of the assignment x=y
+      console.log(x=y); or log the return value directly.
+      > The return value matches the expression to the right of the= sign in the"meaning" column of the above table.
+      > That means that(x=y) returns y,(x+=y) returns the resulting sum x+y,(x**=y) returns the resulting power x**y, and so on.
+
+      > In the case of logical assignments,(x&&=y),(x||=y), and (x??=y), the return value is that of the logical operation without the assignment, so x&&y,x||y, and x??y respectively
            
 
 
