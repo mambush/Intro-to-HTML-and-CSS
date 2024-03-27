@@ -1078,6 +1078,64 @@ $: Asserts the end of the string.
 Putting it all together, the regular expression ensures that:
 
 The email address starts with one or more characters that are not whitespace or @. Followed by an @ symbol. Followed by one or more characters that are not whitespace or @. Followed by a dot (.). Followed by one or more characters that are not whitespace or @. Ends with the end of the string. This regular expression provides a basic validation for email addresses. However, it's important to note that email address validation can be quite complex due to the variety of valid email formats and internationalization considerations. This regex does not cover all edge cases and may need to be adjusted based on specific requirements.
+
+## WEEK 3
+# DAY 1
+String Operations
+Accessing Individual Characters in a String:
+You can access individual characters in a string using bracket notation ([]) or the charAt() method.
+
+Using Bracket Notation:
+
+const str = "Hello";
+
+// Accessing the first character const firstChar = str[0]; console.log(firstChar); // Output: "H"
+
+// Accessing the third character const thirdChar = str[2]; console.log(thirdChar); // Output: "l" Using charAt() Method:
+
+const str = "Hello";
+
+// Accessing the first character const firstChar = str.charAt(0); console.log(firstChar); // Output: "H"
+
+// Accessing the third character const thirdChar = str.charAt(2); console.log(thirdChar); // Output: "l" Comparing Strings: You can compare strings in JavaScript using comparison operators (==, ===, !=, !==, <, >, <=, >=) or methods like localeCompare().
+
+Using Comparison Operators:
+
+const str1 = "apple"; const str2 = "banana";
+
+console.log(str1 === str2); // Output: false console.log(str1 < str2); // Output: true (lexicographic comparison) Using localeCompare() Method:
+
+const str1 = "apple"; const str2 = "banana";
+
+console.log(str1.localeCompare(str2)); // Output: -1 (str1 comes before str2) When using localeCompare(), it returns:
+
+-1 if the first string comes before the second string alphabetically. 0 if the strings are equal. 1 if the first string comes after the second string alphabetically. These are basic examples of how you can access individual characters in a string and compare strings in JavaScript. String manipulation and comparison are common tasks in JavaScript programming, and understanding these operations is essential for working with text data effectively.
+
+## Event Handlers
+A set of properties provided by DOM elements to help control how that element responds to events are known as the on-event handlers. Links, buttons, photos, and forms are examples of interactive elements. Non-interactive elements include the main document. Events include things like clicking, sensing when a key is pressed, focusing, etc. Typically, the on-event handler is named for the type of event it is intended to respond to, for example, onclick, onkeypress, onfocus, etc.
+
+There are various ways in which you can designate a on<...> event handler for a certain event (like click) for a specified object:
+
+By using the on{eventtype} HTML property to an element, for instance: <button onclick="return handleClick(event);">,
+Alternatively, you can set the relevant JavaScript attribute by using document.getElementById("mybutton").function(event) {... } onclick.
+Keep in mind that every object can only have one.
+>The parameters of the event handler, this binding, and the return value
+The code that is specified is wrapped into a function that has the following parameters when the event handler is specified as an HTML attribute:
+
+event, source, lineno, colno, and error for the onerror event handler; event - for all other event handlers, excluding onerror. 
+It should be noted that the error message is really contained as a string in the event argument.
+
+This handler's keyword is set to the DOM element that the handler is registered on when the handler is called. If the event is canceled, it is determined by the handler's return value. The HTML specification's "The event handler processing algorithm" provides more information about how the return value is specifically handled based on the kind of event.
+
+The phrase "event".
+When talking about the several ways to listen to events,
+
+An object or function registered via EventTarget is referred to as an event listener.while event handler refers to a function registered using on... attributes or properties, addEventListener()
+A function is set up by the EventTarget method addEventListener() to be called each time the target receives the specified event. While Element, Document, and Window are common targets, any object that accepts events might be the target. In order for addEventListener() to function, a function or object that implements EventListener must be added to the EventTarget's list of event listeners for the designated event type. 
+
+objective.addEventListener(listener[, options], type);
+
+objective.addEventListener(listener[, useCapture], type);
             
            
 
