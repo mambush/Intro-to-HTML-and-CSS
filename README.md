@@ -1,4 +1,4 @@
-# Intro-to-HTML-and-CSS
+# Intro-to-HTML-and-CSS- Javascript
 # Week 1  
 ## Unit 1
 
@@ -1048,6 +1048,37 @@ this.Phone=Phone:
              // accessing method
                person.greet(); // hello
             >The greet method is accessed as person.greet() instead of person.greet
+
+            # java  email validation
+            > Validation is an essential part when communicating with the user. Especially when the user is providing critical information like the user credentials.
+            * Email validation ensures:
+              > user authenticity
+              > Facilitates email validation on the client-side so that the processing of data on the server side is faster.
+              > with javascript you can validate name,password,email,date etc.
+
+              * validatng email addresses in javascript typically  involves using regular expression to match the pattern of a valid email address.While a perfect email validation regex is complex due to the intricacies of the email specification, a basic regex pattern can cover most common cases. Here's an example of how you can perform email validation in javascript.
+
+                > Function validate Email(email) {
+                *// Regular expression pattern for basic email validation
+                * const regex=/^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                  >^: Asserts the start of the string.
+
+[^\s@]+: Matches one or more characters that are not whitespace (\s) or @. This part represents the local part of the email address before the @ symbol.
+
+@: Matches the @ symbol.
+
+[^\s@]+: Matches one or more characters that are not whitespace (\s) or @. This part represents the domain name of the email address after the @ symbol.
+
+.: Matches a literal dot (.). It's escaped with a backslash because dot (.) has a special meaning in regular expressions and needs to be treated as a literal dot.
+
+[^\s@]+: Matches one or more characters that are not whitespace (\s) or @. This part represents the top-level domain (TLD) of the email address.
+
+$: Asserts the end of the string.
+
+Putting it all together, the regular expression ensures that:
+
+The email address starts with one or more characters that are not whitespace or @. Followed by an @ symbol. Followed by one or more characters that are not whitespace or @. Followed by a dot (.). Followed by one or more characters that are not whitespace or @. Ends with the end of the string. This regular expression provides a basic validation for email addresses. However, it's important to note that email address validation can be quite complex due to the variety of valid email formats and internationalization considerations. This regex does not cover all edge cases and may need to be adjusted based on specific requirements.
+            
            
 
 
