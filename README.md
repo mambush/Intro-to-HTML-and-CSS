@@ -1170,6 +1170,270 @@ new Date(year,month,day,hours,minutes,seconds)
 new Date(year,month,day,hours,minutes,seconds,ms)
 
 new Date(milliseconds)
+
+# Keyboard Events
+The most significant keyboard events and the event handlers for them are listed below.
+
+The Event of Keydown (onkeydown)
+
+When a key on the keyboard is depressed, the keydown event is triggered. The onkeydown event handler can be used to manage the keydown event. You may see an alert message when the keydown event happens in the following example.
+<input type="text" onkeydown="alert('You have pressed a key inside text input!')">
+<text area onkeydown="alert('You have pressed a key inside text area!')"></text area>
+
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Keydown Event Example</title>
+</head>
+<body>
+
+<p>Press any key and hold it down to trigger the alert.</p>
+
+<script>
+// Function to handle the keydown event
+function handleKeyDown(event) {
+  // Display an alert message when any key is pressed down
+  alert("Key pressed down: " + event.key);
+}
+
+// Add event listener for keydown event
+document.addEventListener('keydown', handleKeyDown);
+</script>
+
+</body>
+</html>
+```
+
+In this example:
+
+- We define a function `handleKeyDown(event)` to handle the keydown event.
+- Inside this function, we use the `alert()` function to display a message indicating which key was pressed down. We access the key that was pressed using `event.key`.
+- We add an event listener to the `document` object to listen for the keydown event. When the event occurs, the `handleKeyDown` function is called.
+
+# The keyup Event(onkeyup)
+Certainly! Below is an example of how you can use the `onkeyup` event handler in JavaScript to display an alert message when a key is released on the keyboard:
+<input type="text" onkeyup="alert('You have released a key inside text input!')">
+<textarea onkeypress="alert('you have pressed a key inside text area!')"></textarea>
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Keyup Event Example</title>
+</head>
+<body>
+
+<p>Press any key and release it to trigger the alert.</p>
+
+<script>
+// Function to handle the keyup event
+function handleKeyUp(event) {
+  // Check if the key pressed is the Enter key (key code 13)
+  if (event.keyCode === 13) {
+    alert("You released the Enter key!");
+  } else {
+    alert("You released a key other than Enter!");
+  }
+}
+
+// Add event listener for keyup event
+document.addEventListener('keyup', handleKeyUp);
+</script>
+
+</body>
+</html>
+```
+
+In this example:
+
+- We define a function `handleKeyUp(event)` to handle the keyup event.
+- Inside this function, we check if the key released is the Enter key (key code 13) or any other key, and display an appropriate alert message.
+- We add an event listener to the `document` object to listen for the keyup event. When the event occurs, the `handleKeyUp` function is called.
+ # The Keypress Event (onkeypress)
+ <input type="text" onkeypress="alert('you have pressed a key inside text input!')">
+ <textarea onkeypress="alert('you have pressed a key inside text area')"></textarea>
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Keypress Event Example</title>
+</head>
+<body>
+
+<p>Press any key that has a character value associated with it to trigger the alert.</p>
+
+<script>
+// Function to handle the keypress event
+function handleKeyPress(event) {
+  // Display an alert message when a key with a character value is pressed
+  alert("Key pressed: " + event.key);
+}
+
+// Add event listener for keypress event
+document.addEventListener('keypress', handleKeyPress);
+</script>
+
+</body>
+</html>
+```
+
+In this example:
+
+- We define a function `handleKeyPress(event)` to handle the keypress event.
+- Inside this function, we use the `alert()` function to display a message indicating which key with a character value was pressed. We access the pressed key using `event.key`.
+- We add an event listener to the `document` object to listen for the keypress event. When the event occurs, the `handleKeyPress` function is called.
+
+Note: As mentioned, certain keys like Ctrl, Shift, Alt, Esc, Arrow keys, etc., will not generate a keypress event.
+
+# Form Event
+When a form control gains or loses focus, or when a user modifies a form control value—for example, by entering text in a text input field or choosing any item in a pick box—a form event is triggered. 
+
+The most significant form events together with associated event handlers are shown below.
+
+The Event of Focus (onfocus)
+
+When a person directs their attention to a web page element, this is known as the focus event. The onfocus event handler can be used to manage the focus event. When text input in the following example gains focus, its backdrop will be highlighted in yellow.
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Focus Event Example</title>
+  <style>
+    .highlight {
+      background-color: yellow;
+    }
+  </style>
+</head>
+<body>
+
+<p>Click on the text input to see it highlighted.</p>
+
+<!-- Text input field -->
+<input type="text" id="textInput">
+
+<script>
+// Function to handle the focus event
+function handleFocus() {
+  // Add a class to highlight the background color
+  document.getElementById("textInput").classList.add("highlight");
+}
+
+// Add event listener for focus event
+document.getElementById("textInput").addEventListener('focus', handleFocus);
+
+// Function to handle the blur event
+function handleBlur() {
+  // Remove the class to revert the background color
+  document.getElementById("textInput").classList.remove("highlight");
+}
+
+// Add event listener for blur event
+document.getElementById("textInput").addEventListener('blur', handleBlur);
+</script>
+
+</body>
+</html>
+<input type="text" id="textInput"> is our text input box.
+We establish a CSS class.To make the backdrop color yellow, highlight it.
+To handle the focus event, we define a function called handleFocus(). When the text input element has attention, we apply the CSS class highlight to it inside this method.
+To manage the blur event, we define a function called handleBlur(). When the text input element loses focus, we remove the CSS class highlight from it inside this function.
+For the focus and blur events on the text input element, we add event listeners. HandleFocus() is called when the input field becomes focused, and handleBlur() is called when it becomes non-focused.
+
+# The blur event(onblur)
+> The blur event occurs when the user takes the focus away from a form element or a window. You can handle the blur event with the onblur event handler. The following example will show you an alert message when the text input element loses focus.
+* <input type="text" onblur="alert('Text input loses focus!')">
+<button type="button">Submit</button>
+* To take the focus away from a form element first click inside of it then press the tab key on the keyboard. You can handle the focus event with the onfocus event handler, gives focus on Something else, or click outside of it.
+
+  # The Change Event (onchange)
+  <!DOCTYPE html>
+<html>
+<head>
+  <title>Change Event Example</title>
+</head>
+<body>
+
+<p>Select an option from the dropdown to trigger the alert.</p>
+
+<!-- Select box -->
+<select id="selectBox">
+  <option value="option1">Option 1</option>
+  <option value="option2">Option 2</option>
+  <option value="option3">Option 3</option>
+</select>
+
+<script>
+// Function to handle the change event
+function handleChange() {
+  // Get the selected value from the select box
+  var selectedValue = document.getElementById("selectBox").value;
+  
+  // Display an alert message with the selected value
+  alert("Selected option: " + selectedValue);
+}
+
+// Add event listener for change event
+document.getElementById("selectBox").addEventListener('change', handleChange);
+</script>
+
+</body>
+</html>
+
+*There are three alternatives in our select box, <select id="selectBox">.
+To manage the change event, we construct a function called handleChange(). This function uses document.getElementById("selectBox").value to retrieve the selected value from the select box. It then displays the selected value in an alert message.
+For the choose box element, we add an event listener for the change event. The handleChange() function is called when the value of the select box changes, and the selected choice is displayed in an alert message.
+
+# The Submit Event (onsubmit)
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Submit Event Example</title>
+</head>
+<body>
+
+<form id="myForm">
+  <!-- Input field -->
+  <input type="text" name="name" placeholder="Enter your name">
+  <!-- Submit button -->
+  <button type="submit">Submit</button>
+</form>
+
+<script>
+// Function to handle the submit event
+function handleSubmit(event) {
+  // Prevent the default form submission behavior
+  event.preventDefault();
+  
+  // Display an alert message when the form is submitted
+  alert("Form submitted!");
+}
+
+// Add event listener for submit event on the form
+document.getElementById("myForm").addEventListener('submit', handleSubmit);
+</script>
+
+</body>
+</html>
+*
+Our form, <form id="myForm">, has a submit button and an input field.
+To handle the submission event, we define a function handleSubmit(event). This function uses event.preventDefault() to stop the form from being submitted to the server by overriding the default submission behavior.
+Rather, we show an alert message letting you know that the form was sent in.
+For the form element's submit event, we add an event listener. The handleSubmit() function is called and an alert message is displayed when the form is submitted.
+
+# Document/Window Events
+* Events are also started when the user resizes the browser window or the website loads, among other things. 
+
+The most significant document/window events together with their event handlers are listed below.
+
+The Onload Load Event
+
+When a webpage has completed loading in the web browser, the load event takes place. The onload event handler can be used to manage the load event.
+<body onload="window.alert('Page is loaded succefully!')">
+<h1> This is a heading</h1>
+<p> This is a paragraph of text</p>
+</body>
             
            
 
