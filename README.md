@@ -1125,6 +1125,7 @@ The code that is specified is wrapped into a function that has the following par
 event, source, lineno, colno, and error for the onerror event handler; event - for all other event handlers, excluding onerror. 
 It should be noted that the error message is really contained as a string in the event argument.
 
+
 This handler's keyword is set to the DOM element that the handler is registered on when the handler is called. If the event is canceled, it is determined by the handler's return value. The HTML specification's "The event handler processing algorithm" provides more information about how the return value is specifically handled based on the kind of event.
 
 The phrase "event".
@@ -1136,6 +1137,39 @@ A function is set up by the EventTarget method addEventListener() to be called e
 objective.addEventListener(listener[, options], type);
 
 objective.addEventListener(listener[, useCapture], type);
+
+# Dynamic
+> Dynamic HTML refers to the combination of HTML,CSS and javascript to generate dynamic webpages. Events may in influence changes to a website features. Simple text font,color and style adjustments are one type of alteration that can be made, as can dynamically altering the pages content and rearring items on it.
+* There are two methods for altering HTML pages:
+  > Altering the objects class, which also alters the object style. To alter the style, use the objects style property.
+  > Additionally, Javascript functions can be created in a variety of ways, such as:
+  > The Id value in the javascript function is used to directly reference an object.
+  > Then you may utilize this method to alter the style of just.
+  > Dynamic HTML pages changes and update based on user interactions or server-side data. Content can be modified without reloading the entire page.
+  > Utilize technologies like javascript,AJAX,and server-side scripting language(eg.PHP,Python) to generate content dynamically.
+  > Allows for interactive features like form submissions, real-time updates and data fetching from database or API.
+
+  # Date object
+  > The Date object in javascript helps handle dates and times. It allows you work with dates and times, like finding out the current date and time.
+  > Creating specific dates for your programs
+  > Dynamic events
+  > The date object in javascript offers methods starting with 'get' to access date components, returning associated numbers relative to the instantiated object. Correspnding to the 'get' methods, there are 'set' methods for modifying date components.
+  Creating Date Objects
+# Date objects are created with the new Date() constructor.
+
+There are 9 ways to create a new date object:
+
+new Date()
+new Date(date string)
+
+new Date(year,month)
+new Date(year,month,day)
+new Date(year,month,day,hours)
+new Date(year,month,day,hours,minutes)
+new Date(year,month,day,hours,minutes,seconds)
+new Date(year,month,day,hours,minutes,seconds,ms)
+
+new Date(milliseconds)
             
            
 
